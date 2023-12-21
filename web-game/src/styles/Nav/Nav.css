@@ -1,6 +1,7 @@
 nav {
   width: 200px;
   height: 100vh;
+  min-width: 155px;
   padding: calc(var(--base-px) * 2);
   background-color: var(--brown-color);
 }

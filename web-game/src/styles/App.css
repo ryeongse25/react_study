@@ -1,0 +1,23 @@
+.app {
+  display: flex;
+}
+
+/* title */
+.app h4 {
+  font-size: 30px;
+  text-align: center;
+}
+
+/* 오른쪽 화면 */
+.app > div {
+  gap: 30px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  width: calc(100% - 200px);
+}
+
+.game-box {
+  height: 600px;
+  border: 2px dashed black;
+}

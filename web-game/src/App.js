@@ -6,16 +6,21 @@ import Gugudan from "./components/Gugudan/Gugudan";
 
 const App = () => {
   const [game, setGame] = useState("gugudan");
+  const title = { gugudan: "구구단 게임", word: "끝말잇기" };
 
   const changeGame = (game) => {
-    console.log(game);
     setGame(game);
   };
 
   return (
     <>
-      <Nav changeGame={changeGame} />
-      <div className="App">{game === "gugudan" ?? <Gugudan />}</div>;
+      <div className="app">
+        <Nav changeGame={changeGame} />
+        <div>
+          <h4>{title[game]}</h4>
+          <div className="game-box">{game === "gugudan" && <Gugudan />}</div>
+        </div>
+      </div>
     </>
   );
 };
