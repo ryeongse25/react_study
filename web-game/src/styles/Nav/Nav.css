@@ -1,0 +1,28 @@
+nav {
+  width: 200px;
+  height: 100vh;
+  padding: calc(var(--base-px) * 2);
+  background-color: var(--brown-color);
+}
+
+/* 로고 + 메뉴 */
+nav > div {
+  color: white;
+  cursor: pointer;
+  text-align: center;
+}
+
+/* 로고 */
+.logo {
+  height: 80px;
+  font-size: 25px;
+  line-height: 80px;
+  margin-bottom: 20px;
+}
+
+/* 메뉴 */
+nav > div:not(.logo) {
+  margin-bottom: 10px;
+  padding: calc(var(--base-px) * 2);
+  background-color: var(--green1-color);
+}
