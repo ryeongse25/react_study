@@ -1,10 +1,12 @@
 :root {
   --bg-color: #dfdfdb;
   --brown-color: #b7a589;
+  --green0-color: #b8be9d;
   --green1-color: #686c36;
   --green2-color: #3b3f26;
   --green3-color: #272c26;
   --base-px: 8px;
+  --nav-width: 200px;
 }
 
 * {
@@ -16,5 +18,5 @@
 
 html,
 body {
-  overflow: hidden;
+  overflow-x: hidden;
 }
