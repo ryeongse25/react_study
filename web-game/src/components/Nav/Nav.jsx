@@ -12,6 +12,18 @@ const Nav = ({ changeGame }) => {
       code: "word",
       title: "끝말잇기",
     },
+    {
+      code: "baseball",
+      title: "숫자야구",
+    },
+    {
+      code: "rock",
+      title: "가위바위보",
+    },
+    {
+      code: "lotto",
+      title: "로또 추첨기",
+    },
   ];
   return (
     <>

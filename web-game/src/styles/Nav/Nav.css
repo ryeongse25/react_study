@@ -8,7 +8,6 @@ nav {
 
 /* 로고 + 메뉴 */
 nav > div {
-  color: white;
   cursor: pointer;
   text-align: center;
 }
@@ -16,6 +15,7 @@ nav > div {
 /* 로고 */
 .logo {
   height: 80px;
+  color: white;
   font-size: 25px;
   line-height: 80px;
   margin-bottom: 20px;
@@ -25,5 +25,32 @@ nav > div {
 nav > div:not(.logo) {
   margin-bottom: 10px;
   padding: calc(var(--base-px) * 2);
+}
+
+nav > div:not(.logo):nth-child(3n - 1) {
+  color: white;
   background-color: var(--green1-color);
+}
+
+nav > div:not(.logo):nth-child(3n - 1):hover {
+  background-color: #4e5028;
+}
+
+nav > div:not(.logo):nth-child(3n) {
+  color: black;
+  background-color: var(--bg-color);
+}
+
+nav > div:not(.logo):nth-child(3n):hover {
+  background-color: #c5c5c3;
+}
+
+nav > div:not(.logo):nth-child(3n + 1) {
+  color: white;
+  background-color: var(--green3-color);
+}
+
+nav > div:not(.logo):nth-child(3n + 1):hover {
+  color: white;
+  background-color: #171a16;
 }
