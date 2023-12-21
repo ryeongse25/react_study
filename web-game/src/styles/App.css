@@ -13,11 +13,7 @@
   gap: 30px;
   padding: 50px;
   display: flex;
+  align-items: center;
   flex-direction: column;
-  width: calc(100% - 200px);
-}
-
-.game-box {
-  height: 600px;
-  border: 2px dashed black;
+  width: calc(100% - var(--nav-width));
 }

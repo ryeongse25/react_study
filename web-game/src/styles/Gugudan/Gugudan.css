@@ -1,0 +1,47 @@
+.gugudan {
+  width: 320px;
+}
+
+/* window */
+.gugudan > div:first-child {
+  padding: 30px 20px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  justify-content: space-between;
+  background-color: var(--green0-color);
+}
+
+.gugudan h2 {
+  flex-grow: 1;
+}
+
+/* input */
+.gugudan input {
+  width: 110px;
+  border: none;
+  font-size: 20px;
+  text-align: right;
+  background-color: transparent;
+}
+
+.gugudan input:focus {
+  outline: none;
+}
+
+/* keypad */
+.gugudan > div:last-child {
+  gap: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* 숫자 키 */
+.gugudan button {
+  border: none;
+  height: 90px;
+  font-size: 30px;
+  border-radius: 5px;
+}

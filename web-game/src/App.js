@@ -18,7 +18,7 @@ const App = () => {
         <Nav changeGame={changeGame} />
         <div>
           <h4>{title[game]}</h4>
-          <div className="game-box">{game === "gugudan" && <Gugudan />}</div>
+          <div>{game === "gugudan" && <Gugudan />}</div>
         </div>
       </div>
     </>
