@@ -43,5 +43,10 @@
   border: none;
   height: 90px;
   font-size: 30px;
+  cursor: pointer;
   border-radius: 5px;
+}
+
+.gugudan button:hover {
+  background-color: #d5d5d5;
 }
